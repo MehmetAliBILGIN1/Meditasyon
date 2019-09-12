@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:id="@+id/actionBarTop"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/pink_background" >
+
+        <Button
+            android:id="@+id/menu_button"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@drawable/menu_close"/>
+
+        <Button
+            android:id="@+id/btnWebview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/menu_button"
+            android:layout_toLeftOf="@+id/refreshBtn"
+            android:background="@color/pink_background"
+            android:text="Gizlilik Politikası"/>
+
+
+        <Button
+            android:id="@+id/refreshBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/refresh_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view"
+        android:background="#ffffff"
+        android:layout_below="@+id/actionBarTop"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

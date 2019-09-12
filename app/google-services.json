@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1060932116679",
+    "firebase_url": "https://relaxator-6e1be.firebaseio.com",
+    "project_id": "relaxator-6e1be",
+    "storage_bucket": "relaxator-6e1be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060932116679:android:c99948eacbee79fa",
+        "android_client_info": {
+          "package_name": "com.mab.relaxator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060932116679-4vie4eoip993oidcns7pa5b0gtigl0ln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mab.relaxator",
+            "certificate_hash": "3ed703eed680a49239b9e5f6583e61966fdc1c52"
+          }
+        },
+        {
+          "client_id": "1060932116679-j3vo3ll73r1ng56ldv5oq8fms2dtfk38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5QeiVvCa8smMRg7dCj_hANj52luDQc2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060932116679-j3vo3ll73r1ng56ldv5oq8fms2dtfk38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

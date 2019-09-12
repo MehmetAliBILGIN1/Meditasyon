@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Huzur Böceği</string>
+    <string name="noInternet">There Is No Connection!</string>
+    <string name="checkInternetConnection">Please Check Your Connection</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4055756653297968/3608179198</string>
+    <string name="bannerreklamId">ca-app-pub-4055756653297968/3608179198</string>
+    <string name="relaxator">RELAXATION</string>
+
+</resources>
